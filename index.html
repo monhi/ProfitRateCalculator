@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/rate.js"></script>
+    <title>Profit Rate Calculator</title>
+</head>
+<body>
+    <h1>Profit rate calculator</h1>
+    <br>    
+    <div style="display:flex;justify-content:start;align-items:center">
+    <div>
+        <h2>Investment:</h2>
+        <h2>Profit Rate:</h2>
+        <h2>Iterations:</h2>
+    </div>
+    <div>
+        <input 	type="number" id="init_invest"    style="width:100px;height:30px;margin-left:64px;"><br>
+        <input 	type="number" id="profit_rate"    style="width:100px;height:30px;margin-left:64px;"><br>
+        <input 	type="number" id="iteration"     style="width:100px;height:30px;margin-left:64px;"><br>
+    </div>        
+    </div>
+    <br/>
+    <button  onclick="CalcProfitRate()" 	style="width:125px;height:25px;">Calculate</button> 
+    <br/>
+    <p  style="white-space: pre-line" id="result"></p>
+
+</body>
+</html>
