@@ -1,7 +1,7 @@
 window.onload=function()
 {
 	document.querySelector("#init_invest").value = "1.0";
-	document.querySelector("#profit_rate").value = "0.035";
+	document.querySelector("#profit_rate").value = "0.14207";
 	document.querySelector("#iteration").value = "52"; // 52 weeks in a year.
 
 }
